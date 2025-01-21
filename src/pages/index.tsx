@@ -7,6 +7,7 @@ import Hero from '../components/Sections/Hero';
 import Resume from '../components/Sections/Resume';
 import Testimonials from '../components/Sections/Testimonials';
 import {homePageMeta} from '../data/data';
+import Footer from '../components/Sections/Footer';
 
 // eslint-disable-next-line react-memo/require-memo
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
@@ -20,6 +21,7 @@ const Home: FC = memo(() => {
       <About />
       <Resume />
       <Testimonials />
+      <Footer />
     </Page>
   );
 });

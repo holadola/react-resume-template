@@ -38,8 +38,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Macando || Carl Christiansen',
-  description: "Welcome to Macando",
+  title: 'Carl Christiansen',
+  description: "Carl Christiansen Resume",
 };
 
 /**
@@ -83,11 +83,6 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-    },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
     },
   ],
 };
